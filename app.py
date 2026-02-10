@@ -8,10 +8,10 @@ app = Flask(__name__)
 def inicio():
     return "Bienvenido al Sistema de Turnos – Clínica XYZ"
 
-# Ruta fija con tu nombre
-@app.route('/usuario')
-def usuario():
-    return "Bienvenido, Clinton. Tu turno está registrado correctamente."
+# Ruta dinámica de usuario
+@app.route('/usuario/<nombre>')
+def usuario(nombre):
+    return f"Bienvenido, {nombre}. Tu turno está registrado correctamente."
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
