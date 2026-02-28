@@ -1,12 +1,12 @@
 # Sistema Avanzado de Gestión de Inventario – Flask
 
-## 📌 Descripción del Proyecto
+##Descripción del Proyecto
 Este proyecto corresponde a un **Sistema Avanzado de Gestión de Inventario** desarrollado con **Flask**, como continuación del proyecto iniciado en las semanas 9 y 10.  
 El sistema permite administrar productos de una tienda (ferretería) aplicando **Programación Orientada a Objetos (POO)**, uso de **colecciones** y **operaciones CRUD reales** conectadas a una base de datos **SQLite**.
 
 ---
 
-## 🎯 Objetivos
+##Objetivos
 - Aplicar Programación Orientada a Objetos para estructurar el sistema.
 - Utilizar colecciones de Python para la gestión de datos.
 - Implementar operaciones CRUD reales (Crear, Leer, Actualizar, Eliminar).
@@ -15,7 +15,7 @@ El sistema permite administrar productos de una tienda (ferretería) aplicando *
 
 ---
 
-## 🧠 Tecnologías Utilizadas
+##Tecnologías Utilizadas
 - Python 3
 - Flask
 - SQLite
@@ -24,7 +24,7 @@ El sistema permite administrar productos de una tienda (ferretería) aplicando *
 
 ---
 
-## 🗂️ Estructura del Proyecto
+##Estructura del Proyecto
 Mi_proyecto_flask_Clinton_Alvarado/
 │
 ├── app.py
@@ -48,27 +48,27 @@ Mi_proyecto_flask_Clinton_Alvarado/
 
 ---
 
-## 🧩 Programación Orientada a Objetos (POO)
+##Programación Orientada a Objetos (POO)
 - **Clase Producto:** representa un producto con atributos como ID, nombre, cantidad y precio.
 - **Clase Inventario:** gestiona los productos y contiene los métodos CRUD conectados a SQLite.
 
 ---
 
-## 📦 Uso de Colecciones
+##Uso de Colecciones
 - Se utilizan **listas** para manejar los conjuntos de productos obtenidos desde la base de datos.
 - Inicialmente se emplearon **diccionarios** para la gestión del inventario en memoria.
 - Las colecciones permiten una gestión eficiente de los datos del inventario.
 
 ---
 
-## 💾 Base de Datos SQLite
+##Base de Datos SQLite
 - Se utiliza SQLite para el almacenamiento persistente de los datos.
 - La base de datos contiene la tabla `productos`.
 - La conexión se centraliza en el archivo `db.py`.
 
 ---
 
-## 🔄 Operaciones CRUD Implementadas
+##Operaciones CRUD Implementadas
 - **Crear:** agregar productos mediante formulario web.
 - **Leer:** mostrar productos almacenados en la base de datos.
 - **Actualizar:** modificar cantidad y precio de un producto.
@@ -76,13 +76,13 @@ Mi_proyecto_flask_Clinton_Alvarado/
 
 ---
 
-## 🖥️ Interfaz de Usuario
+##Interfaz de Usuario
 - El sistema cuenta con formularios web para gestionar el inventario.
 - Se implementa un submenú que permite realizar todas las operaciones CRUD.
 
 ---
 
-## ▶️ Ejecución del Proyecto
+##Ejecución del Proyecto
 1. Activar el entorno virtual:
    .\venv\Scripts\activate
 2. Crear la base de datos:
@@ -94,7 +94,7 @@ Mi_proyecto_flask_Clinton_Alvarado/
 
 ---
 
-## 👨‍🎓 Autor
+##Autor
 **Clinton David Alvarado Chongo**
 
 Proyecto académico – Desarrollo de aplicaciones web con Flask
